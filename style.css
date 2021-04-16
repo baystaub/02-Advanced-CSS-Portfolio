@@ -23,6 +23,7 @@ main h1 {
     position: sticky;
     display: flex;
     flex: auto;
+    line-height: 0!important;
 }
 
 .navbar a {
@@ -102,14 +103,14 @@ h2 {
     margin: 30px;
     justify-content: center;
     flex-direction: column;
-    background-color: beige;
-    border: 8px solid black
+    background-color: beige!important;
+    border: 8px solid black!important;
 }
 
 .card:hover {
-    background-color: teal;
-    color: beige;
-    border: 8px solid black;
+    background-color: teal!important;
+    color: beige!important;
+    border: 8px solid black!important;
 }
 
 .project-1 {
